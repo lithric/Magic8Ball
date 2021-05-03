@@ -14,6 +14,32 @@ textOptions.push(
 );
 
 function MagicResponse() {
-    var rand = Calc.randomInt(9);
+    var rand = Calc.randomInt(9); //0-9
+
+    //this
     respondText.innerHTML = textOptions[rand];
+
+    //or this works just fine
+    switch (rand+1) {
+        case 1:
+            respondText.innerHTML = [rand];
+        case 2:
+            respondText.innerHTML = [rand];
+        case 3:
+            respondText.innerHTML = [rand];
+        case 4:
+            respondText.innerHTML = [rand];
+        case 5:
+            respondText.innerHTML = [rand];
+        case 6:
+            respondText.innerHTML = [rand];
+        case 7:
+            respondText.innerHTML = [rand];
+        case 8:
+            respondText.innerHTML = [rand];
+        case 9:
+            respondText.innerHTML = [rand];
+        case 10:
+            respondText.innerHTML = [rand];
+    }
 }
