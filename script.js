@@ -1,6 +1,5 @@
 var respondText = document.getElementById("response");
 var textOptions=[];
-var kite;
 textOptions.push(
     "No", //1
     "Yes", //2
