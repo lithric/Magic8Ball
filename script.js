@@ -22,24 +22,24 @@ function MagicResponse() {
     //or this works just fine
     switch (rand+1) {
         case 1:
-            respondText.innerHTML = [rand];
+            respondText.innerHTML = textOptions[rand];
         case 2:
-            respondText.innerHTML = [rand];
+            respondText.innerHTML = textOptions[rand];
         case 3:
-            respondText.innerHTML = [rand];
+            respondText.innerHTML = textOptions[rand];
         case 4:
-            respondText.innerHTML = [rand];
+            respondText.innerHTML = textOptions[rand];
         case 5:
-            respondText.innerHTML = [rand];
+            respondText.innerHTML = textOptions[rand];
         case 6:
-            respondText.innerHTML = [rand];
+            respondText.innerHTML = textOptions[rand];
         case 7:
-            respondText.innerHTML = [rand];
+            respondText.innerHTML = textOptions[rand];
         case 8:
-            respondText.innerHTML = [rand];
+            respondText.innerHTML = textOptions[rand];
         case 9:
-            respondText.innerHTML = [rand];
+            respondText.innerHTML = textOptions[rand];
         case 10:
-            respondText.innerHTML = [rand];
+            respondText.innerHTML = textOptions[rand];
     }
 }
